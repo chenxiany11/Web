@@ -1,0 +1,59 @@
+body {
+    background: #DDDDDD;
+}
+
+.navbar {
+    background-color: #800000;
+    color: white;
+}
+
+.page-container {
+    margin-top: 75px;
+}
+#favoriteColorContainer {
+    width: 200px;
+    margin: 20px;
+ }
+  
+ #favoriteColorBox {
+    background-color: #800000;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+ }
+ 
+#decrement, #reset, #increment {
+    background: #800000;
+    color: white;
+}
+#blue {
+    background: blue;
+    color: white;
+}
+#green {
+    background: green;
+    color: white;
+    /* margin-left: 3px; */
+}
+#red {
+    background:red;
+    color: white;
+    /* margin-left: 6px; */
+}
+#purple {
+    background: purple;
+    color: white;
+    /* margin-left: 9px; */
+}
+
+.no-gutters>[class*=col-]{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.title {
+    font-size: 1.5em;
+}
+#counter {
+    font-size: 1.5em;
+}

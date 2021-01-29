@@ -1,0 +1,26 @@
+body {
+    background: #DDDDDD;
+}
+
+.navbar {
+    background-color: #800000;
+    color: white;
+}
+
+.page-container {
+    margin-top: 75px;
+}
+
+.no-gutters>.col,
+.no-gutters>[class*=col-] {
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+#counterText {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 50px;
+}
+
+

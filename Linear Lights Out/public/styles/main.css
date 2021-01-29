@@ -1,0 +1,72 @@
+body {
+    background: #DDDDDD;
+}
+
+.navbar {
+    background-color: #800000;
+    color: white;
+}
+
+.page-container {
+    margin-top: 75px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 20px;
+    padding: 20px;
+}
+
+.gameBoard{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    margin: auto;
+}
+
+.gameBoard>.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.lbtn>.btn {
+    margin: auto;
+    padding: 16px 18px 16px 18px;
+    font-size: 1.5em;
+}
+.lbtn {
+    margin: 5px;
+}
+#newGameButton {
+    background: #800000;
+    margin-top: 15px;
+    margin-left: auto;
+    color: white;
+}
+
+@media (min-width: 576px) {
+    #gameStateText {
+        font-size: 1.5em;
+    }
+
+    .lbtn>.btn {
+         font-size: 1.5em;
+    }
+    #newGameButton {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 992px) {
+    #gameStateText {
+        font-size: 2em;
+    }
+    .lbtn>.btn {
+        font-size: 2em;
+    }
+    #newGameButton {
+        font-size: 1.5em;
+    }
+}
